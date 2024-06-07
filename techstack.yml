@@ -1,0 +1,4383 @@
+repo_name: minhnguyen311/vault
+report_id: f51c6d2d8312cd1379fe426d0aad377f
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-07T13:35:50+00:00'
+requested_by: miagilepner
+provider: github
+branch: main
+detected_tools_count: 308
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/vault
+  detection_source: Repo Metadata
+- name: Handlebars.js
+  description: Minimal Templating on Steroids
+  website_url: http://handlebarsjs.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source_url: https://github.com/minhnguyen311/vault
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/minhnguyen311/vault
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/minhnguyen311/vault
+  detection_source: Repo Metadata
+- name: Swift
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/scripts/docker/Dockerfile
+  detection_source: scripts/docker/Dockerfile
+  last_updated_by: Jason O'Donnell
+  last_updated_on: 2020-07-20 18:11:34.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/minhnguyen311/vault
+  detection_source: Repo Metadata
+- name: Ember-cli
+  description: The command line interface for ambitious web applications
+  website_url: http://ember-cli.com/
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/1801/ember-cli.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/lib/config-ui/package.json
+  detection_source: ui/lib/config-ui/package.json
+  last_updated_by: Kianna
+  last_updated_on: 2024-01-23 23:04:17.000000000 Z
+- name: Ember.js
+  description: A JavaScript framework for creating ambitious web apps
+  website_url: http://emberjs.com/
+  version: 4.12.2
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/1018/3s1seyc0csl75btyw1vl.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Noelle Daley
+  last_updated_on: 2024-04-12 23:33:10.000000000 Z
+- name: Next.js
+  description: A small framework for server-rendered universal JavaScript apps
+  website_url: https://nextjs.org/
+  version: 14.0.4
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5936/nextjs.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/website/package-lock.json
+  detection_source: website/package.json
+  last_updated_by: Jeff Escalante
+  last_updated_on: 2020-01-18 00:18:09.000000000 Z
+- name: Normalize.css
+  description: A modern alternative to CSS resets
+  website_url: https://necolas.github.io/normalize.css/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/6361/default_8c8faac34fdcb5b696503f5166b5232ad0adcf6e.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/package.json
+  detection_source: ui/package.json
+  last_updated_by: Chelsea Shaw
+  last_updated_on: 2024-04-12 22:13:45.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: John-Michael Faircloth
+  last_updated_on: 2024-03-28 18:45:43.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/package.json
+  detection_source: ui/package.json
+  last_updated_by: Matthew Irish
+  last_updated_on: 2018-04-03 14:16:57.000000000 Z
+- name: XState
+  description: State machines and statecharts for the modern web
+  website_url: https://xstate.js.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/12312/default_b7db756c27572b5302a654fe5a96f617084c7d8a.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/package.json
+  detection_source: ui/package.json
+  last_updated_by: Jordan Reimer
+  last_updated_on: 2021-12-17 03:44:29.000000000 Z
+- name: gRPC
+  description: A high performance, open-source universal RPC framework
+  website_url: https://grpc.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Remote Procedure Call (RPC)
+  image_url: https://img.stackshare.io/service/4670/default_d811b0ac72205af84aca21f967594338580be913.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/gcp/go.mod
+  detection_source: api/auth/gcp/go.mod
+  last_updated_by: VAL
+  last_updated_on: 2021-11-12 17:32:05.000000000 Z
+- name: Azure Storage
+  description: Reliable, economical cloud storage for data big and small
+  website_url: http://azure.microsoft.com/en-us/services/storage/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/2099/azureStorage.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: vinay-gopalan
+  last_updated_on: 2024-04-19 16:57:17.000000000 Z
+- name: Cassandra
+  description: A partitioned row store. Rows are organized into tables with a required
+    primary key.
+  website_url: http://cassandra.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1032/cassandra_small.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/plugins/database/cassandra/test-fixtures/no_tls/cassandra.yaml
+  detection_source: plugins/database/cassandra/test-fixtures/no_tls/cassandra.yaml
+  last_updated_by: Calvin Leung Huang
+  last_updated_on: 2017-04-23 01:02:57.000000000 Z
+- name: Google Cloud Storage
+  description: Durable and highly available object storage service
+  website_url: https://cloud.google.com/products/cloud-storage/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/694/Cloud_Storage.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-04-05 16:52:47.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/builtin/logical/database/rotation_test.go
+  detection_source: builtin/logical/database/rotation_test.go
+  last_updated_by: John-Michael Faircloth
+  last_updated_on: 2023-08-24 21:45:07.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Jeff Mitchell
+  last_updated_on: 2019-04-13 07:44:06.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.24.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Noelle Daley
+  last_updated_on: 2024-03-18 17:42:45.000000000 Z
+- name: CodeMirror
+  description: A versatile text editor implemented in JavaScript for the browser
+  website_url: http://codemirror.net/
+  version: 5.65.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/2490/E_fCaAi6.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/lib/core/package.json
+  last_updated_by: Jordan Reimer
+  last_updated_on: 2023-01-18 21:02:41.000000000 Z
+- name: Datadog
+  description: Unify logs, metrics, and traces from across your distributed infrastructure.
+  website_url: https://www.datadoghq.com/lpg/?utm_source=Advertisement&utm_medium=StackShare&utm_campaign=StackShare-Other
+  open_source: false
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Performance Monitoring
+  image_url: https://img.stackshare.io/service/669/default_34b3b9b42d07c33ac47ecdff75dd6f4f82aa70ee.jpg
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Nick Cabatoff
+  last_updated_on: 2021-10-21 13:32:03.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/vault
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/package.json
+  detection_source: ui/package.json
+  last_updated_by: Matthew Irish
+  last_updated_on: 2018-04-03 14:16:57.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/minhnguyen311/vault
+  detection_source: Repo Metadata
+- name: GitHub
+  description: Powerful collaboration, review, and code management for open source
+    and private development projects
+  website_url: https://github.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Collaboration & Version Control
+  image_url: https://img.stackshare.io/service/27/default_869c34d29acc794d60ecdd5d2b5bfc042a80a4ec.jpg
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Jeff Mitchell
+  last_updated_on: 2019-04-13 07:44:06.000000000 Z
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/.github/workflows/actionlint.yml
+  detection_source: ".github/workflows/actionlint.yml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-18 14:31:52.000000000 Z
+- name: GoTTY
+  description: Share your terminal as a web application
+  website_url: https://github.com/yudai/gotty
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: localhost Tools
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Jeff Mitchell
+  last_updated_on: 2019-04-13 07:44:06.000000000 Z
+- name: Kubernetes
+  description: Manage a cluster of Linux containers as a single system to accelerate
+    Dev and simplify Ops
+  website_url: http://kubernetes.io/
+  version: 0.18.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Violet Hynes
+  last_updated_on: 2024-02-13 19:49:35.000000000 Z
+- name: OpenCensus
+  description: A single distribution of libraries that automatically collect traces
+    and send them to any backend
+  website_url: https://opencensus.io/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Performance Monitoring
+  image_url: https://img.stackshare.io/service/10794/EpBd2Xrw_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Nick Cabatoff
+  last_updated_on: 2023-04-24 18:25:50.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.8.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Chelsea Shaw
+  last_updated_on: 2023-08-01 19:02:21.000000000 Z
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Peter Wilson
+  last_updated_on: 2024-03-14 10:13:45.000000000 Z
+- name: QUnit
+  description: A JavaScript Unit Testing framework
+  website_url: http://qunitjs.com/
+  version: 2.20.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1421/b706f022230831a3d391db504a139e21.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Matthew Irish
+  last_updated_on: 2018-04-03 14:16:57.000000000 Z
+- name: SinonJS
+  description: Standalone test spies, stubs and mocks for JavaScript
+  website_url: http://sinonjs.org/
+  version: 17.0.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/3509/logo.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Noelle Daley
+  last_updated_on: 2024-04-12 23:33:10.000000000 Z
+- name: Stylelint
+  description: A mighty, modern CSS linter
+  website_url: http://stylelint.io/
+  version: 15.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5446/V9JsvPul_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Chelsea Shaw
+  last_updated_on: 2024-04-12 22:13:45.000000000 Z
+- name: Terraform
+  description: Describe your complete infrastructure as code and build resources across
+    providers
+  website_url: https://www.terraform.io/
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/1276/default_2316907c4199f912e2ed79cbdb99025c9e5e2665.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/enos/modules/seal_awskms/main.tf
+  detection_source: enos/modules/seal_awskms/main.tf
+  last_updated_by: Ryan Cragun
+  last_updated_on: 2024-04-22 18:34:47.000000000 Z
+- name: Terraform Registry
+  description: Describe your complete infrastructure as code and build resources across
+    providers
+  website_url: https://registry.terraform.io/
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package_manager/49093/default_cdf079d244bded073d455911e6ce679abb1b77ab.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/enos/modules/seal_awskms/main.tf
+  detection_source: enos/modules/seal_awskms/main.tf
+  last_updated_by: Ryan Cragun
+  last_updated_on: 2024-04-22 18:34:47.000000000 Z
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/go.mod
+  detection_source: api/go.mod
+  last_updated_by: Marc Boudreau
+  last_updated_on: 2024-01-23 18:20:58.000000000 Z
+- name: Vault
+  description: Secure, store, and tightly control access to tokens, passwords, certificates,
+    API keys, and other secrets in modern computing
+  website_url: https://www.vaultproject.io/
+  version: 0.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Secrets Management
+  image_url: https://img.stackshare.io/service/2905/vault.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: Dockerfile
+  last_updated_by: mickael-hc
+  last_updated_on: 2023-09-21 16:36:58.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 5.78.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Chelsea Shaw
+  last_updated_on: 2023-08-01 19:02:21.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/.yarnrc
+  detection_source: ui/.yarnrc
+  last_updated_by: Matthew Irish
+  last_updated_on: 2019-10-25 21:00:45.000000000 Z
+- name: highlight.js
+  description: Syntax highlighter in JavaScript
+  website_url: https://highlightjs.org/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/6888/c17e7d9688d86bd9f9506ec1fbd6d200_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/package.json
+  detection_source: ui/package.json
+  last_updated_by: Noelle Daley
+  last_updated_on: 2024-03-18 17:42:45.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/website/package.json
+  detection_source: website/package.json
+  last_updated_by: Jeff Escalante
+  last_updated_on: 2020-01-18 00:18:09.000000000 Z
+- name: DigitalOcean
+  description: Deploy an SSD cloud server in less than 55 seconds with a dedicated
+    IP and root access.
+  website_url: https://www.digitalocean.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Cloud Hosting
+  image_url: https://img.stackshare.io/service/295/Onjxs6Lw_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Nick Cabatoff
+  last_updated_on: 2021-10-21 13:32:03.000000000 Z
+- name: Poli
+  description: An easy-to-use SQL reporting application
+  website_url: https://github.com/shzlw/poli
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Analytics
+  sub_category: Business Intelligence
+  image_url: https://img.stackshare.io/service/11232/no-img-open-source.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/package.json
+  detection_source: ui/package.json
+  last_updated_by: Matthew Irish
+  last_updated_on: 2018-04-03 14:16:57.000000000 Z
+- name: Vercel
+  description: It makes serverless application deployment easy
+  website_url: https://vercel.com/
+  version: 0.4.4
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Static Web Hosting
+  image_url: https://img.stackshare.io/service/7618/bHjpwZem_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/enos/modules/backend_consul/main.tf
+  detection_source: ui/vercel.json
+  last_updated_by: Jeff Escalante
+  last_updated_on: 2021-01-26 21:53:01.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: mickael-hc
+  last_updated_on: 2023-09-21 16:36:58.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/scripts/docker/Dockerfile
+  detection_source: scripts/docker/Dockerfile
+  last_updated_by: Jason O'Donnell
+  last_updated_on: 2020-07-20 18:11:34.000000000 Z
+- name: Debian
+  description: The Universal Operating System
+  website_url: https://www.debian.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/1656/vd4gAekh.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/scripts/cross/Dockerfile
+  detection_source: scripts/cross/Dockerfile
+  last_updated_by: Jeff Mitchell
+  last_updated_on: 2019-07-09 07:51:05.000000000 Z
+- name: MirageJS
+  description: Build complete frontend features, even if your API doesn't exist
+  website_url: https://miragejs.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: API Tools
+  image_url: https://img.stackshare.io/service/12784/AJriyo2N_reasonably_small.jpg
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/package.json
+  detection_source: ui/package.json
+  last_updated_by: Chelsea Shaw
+  last_updated_on: 2024-02-29 15:24:04.000000000 Z
+- name: OpenAPI
+  description: Allows the owner of a network-accessible service to give universal
+    access
+  website_url: https://www.openapis.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: API Tools
+  image_url: https://img.stackshare.io/service/9792/L8C2-2bd_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Jeff Mitchell
+  last_updated_on: 2019-04-13 07:44:06.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/minhnguyen311/vault
+  detection_source: Repo Metadata
+- name: date-fns
+  description: Modern JavaScript date utility library
+  website_url: https://date-fns.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/lib/core/package.json
+  detection_source: ui/lib/core/package.json
+  last_updated_by: Angel Garbarino
+  last_updated_on: 2020-06-18 21:52:43.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/package.json
+  detection_source: ui/package.json
+  last_updated_by: Chelsea Shaw
+  last_updated_on: 2024-04-12 22:13:45.000000000 Z
+- name: containerd
+  description: An open and reliable container runtime
+  package_url: https://pkg.go.dev/github.com/containerd/containerd
+  version: 1.2.10
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-07 18:30:59.000000000 Z
+  vulnerabilities:
+  - name: 'containerd CRI plugin: Insecure handling of image volumes'
+    cve_id: CVE-2022-23648
+    cve_url: https://github.com/advisories/GHSA-crp2-qrr5-8pq7
+    detected_date: Mar 4
+    severity: high
+    first_patched: 1.4.13
+  - name: Archive package allows chmod of file outside of unpack target directory
+    cve_id: CVE-2021-32760
+    cve_url: https://github.com/advisories/GHSA-c72p-9xmj-rx3w
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.4.8
+  - name: Insufficiently restricted permissions on plugin directories
+    cve_id: CVE-2021-41103
+    cve_url: https://github.com/advisories/GHSA-c2h3-6mxw-7mvq
+    detected_date: Oct 5
+    severity: moderate
+    first_patched: 1.4.11
+  - name: containerd-shim API Exposed to Host Network Containers
+    cve_id: CVE-2020-15257
+    cve_url: https://github.com/advisories/GHSA-36xw-fx78-c5r4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.3.9
+  - name: containerd v1.2.x can be coerced into leaking credentials during image pull
+    cve_id: CVE-2020-15157
+    cve_url: https://github.com/advisories/GHSA-742w-89gc-8m9c
+    detected_date: Feb 12
+    severity: moderate
+    first_patched: 1.2.14
+  - name: Ambiguous OCI manifest parsing
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-5j5w-g665-5m35
+    detected_date: Jan 18
+    severity: low
+    first_patched: 1.4.12
+- name: gogo/protobuf
+  description: Protocol Buffers for Go with Gadgets
+  package_url: https://pkg.go.dev/github.com/gogo/protobuf
+  version: 1.1.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: John-Michael Faircloth
+  last_updated_on: 2024-03-28 18:45:43.000000000 Z
+  vulnerabilities:
+  - name: Improper Input Validation in GoGo Protobuf
+    cve_id: CVE-2021-3121
+    cve_url: https://github.com/advisories/GHSA-c3h9-896r-86jm
+    detected_date: Mar 30
+    severity: high
+    first_patched: 1.3.2
+- name: runc
+  description: CLI tool for spawning and running containers according to the OCI specification
+  package_url: https://pkg.go.dev/github.com/opencontainers/runc
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-07 18:30:59.000000000 Z
+  vulnerabilities:
+  - name: Incorrect Authorization in runc
+    cve_id: CVE-2019-16884
+    cve_url: https://github.com/advisories/GHSA-fgv8-vj5c-2ppq
+    detected_date: Feb 26
+    severity: high
+    first_patched: 1.0.0-rc9
+  - name: Privilege Elevation in runc
+    cve_id: CVE-2016-3697
+    cve_url: https://github.com/advisories/GHSA-q3j5-32m5-58c2
+    detected_date: Jan 28
+    severity: high
+    first_patched: 0.1.0
+  - name: mount destinations can be swapped via symlink-exchange to cause mounts outside
+      the rootfs
+    cve_id: CVE-2021-30465
+    cve_url: https://github.com/advisories/GHSA-c3xm-pvg7-gh7r
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.0.0-rc95
+  - name: Information Exposure in RunC
+    cve_id: CVE-2016-9962
+    cve_url: https://github.com/advisories/GHSA-gp4j-w3vj-7299
+    detected_date: Jan 28
+    severity: moderate
+    first_patched: 1.0.0-rc3
+  - name: Overflow in netlink bytemsg length field allows attacker to override netlink-based
+      container configuration
+    cve_id: CVE-2021-43784
+    cve_url: https://github.com/advisories/GHSA-v95c-p5hm-xq8f
+    detected_date: Dec 14
+    severity: moderate
+    first_patched: 1.0.3
+  - name: devices resource list treated as a blacklist by default
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-g54h-m393-cpwq
+    detected_date: Jan 28
+    severity: low
+    first_patched: 1.0.0-rc91
+- name: websocket
+  description: A fast
+  package_url: https://pkg.go.dev/github.com/gorilla/websocket
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Violet Hynes
+  last_updated_on: 2024-02-13 19:49:35.000000000 Z
+  vulnerabilities:
+  - name: Integer overflow in github.com/gorilla/websocket
+    cve_id: CVE-2020-27813
+    cve_url: https://github.com/advisories/GHSA-3xh2-74w9-5vxm
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.4.1
+- name: crypto
+  description: Go supplementary cryptography libraries
+  package_url: https://pkg.go.dev/golang.org/x/crypto
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: api/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-03-15 17:52:57.000000000 Z
+  vulnerabilities:
+  - name: Improper Verification of Cryptographic Signature in golang.org/x/crypto
+    cve_id: CVE-2020-9283
+    cve_url: https://github.com/advisories/GHSA-ffhg-7mh4-33c4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.0.0-20200220183623-bac4c82f6975
+- name: dns
+  description: DNS library in Go
+  package_url: https://pkg.go.dev/github.com/miekg/dns
+  version: 1.0.14
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jeff Mitchell
+  last_updated_on: 2019-04-13 07:44:06.000000000 Z
+  vulnerabilities:
+  - name: Insecure generation of random numbers
+    cve_id: CVE-2019-19794
+    cve_url: https://github.com/advisories/GHSA-44r7-7p62-q3fr
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.1.25
+- name: yaml.v2
+  description: YAML support for the Go language
+  package_url: https://pkg.go.dev/gopkg.in/yaml.v2
+  version: 2.2.2
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/aws/go.sum
+  detection_source: go.mod
+  last_updated_by: Nick Cabatoff
+  last_updated_on: 2023-04-24 18:25:50.000000000 Z
+  vulnerabilities:
+  - name: Excessive Platform Resource Consumption within a Loop in Kubernetes
+    cve_id: CVE-2019-11254
+    cve_url: https://github.com/advisories/GHSA-wxc4-f4m6-wwqv
+    detected_date: Jan 28
+    severity: moderate
+    first_patched: 2.2.8
+- name: distribution
+  description: The Docker toolset to pack
+  package_url: https://pkg.go.dev/github.com/docker/distribution
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: sdk/go.mod
+  last_updated_by: Tom Proctor
+  last_updated_on: 2023-09-01 17:55:17.000000000 Z
+  vulnerabilities:
+  - name: OCI Manifest Type Confusion Issue
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-qq97-vm5h-rrhg
+    detected_date: Feb 12
+    severity: low
+    first_patched: 2.8.0
+- name: Masterminds/goutils
+  description: GoUtils is a Go implementation of some string manipulation libraries
+    of Apache Commons
+  package_url: https://pkg.go.dev/github.com/Masterminds/goutils
+  version: 1.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-04-05 16:52:47.000000000 Z
+- name: Masterminds/semver
+  description: Work with Semantic Versions in Go
+  package_url: https://pkg.go.dev/github.com/Masterminds/semver
+  version: 1.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-04-05 16:52:47.000000000 Z
+- name: adal
+  description: This package implements an HTTP request pipeline suitable for use across
+    multiple go-routines and provides the shared routines relied on by AutoRest generated
+    Go code
+  package_url: https://pkg.go.dev/github.com/Azure/go-autorest/autorest/adal
+  version: 0.5.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jim
+  last_updated_on: 2023-09-12 16:31:33.000000000 Z
+- name: agext/levenshtein
+  description: Levenshtein distance and similarity metrics with customizable edit
+    costs and Winkler-like bonus for common prefix
+  package_url: https://pkg.go.dev/github.com/agext/levenshtein
+  version: 1.2.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Peter Wilson
+  last_updated_on: 2023-12-08 14:43:34.000000000 Z
+- name: alibaba-cloud-sdk-go
+  description: Alibaba Cloud SDK for Go
+  package_url: https://pkg.go.dev/github.com/aliyun/alibaba-cloud-sdk-go
+  version: 1.62.676
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-08 17:43:07.000000000 Z
+- name: aliyun-oss-go-sdk
+  description: Aliyun OSS SDK for Go
+  package_url: https://pkg.go.dev/github.com/aliyun/aliyun-oss-go-sdk
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-08 17:43:07.000000000 Z
+- name: aliyungo
+  description: Go SDK for Aliyun
+  package_url: https://pkg.go.dev/github.com/denverdino/aliyungo
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-05 16:37:22.000000000 Z
+- name: analysis
+  description: Openapi specification object model analyzer
+  package_url: https://pkg.go.dev/github.com/go-openapi/analysis
+  version: 0.21.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Bianca Moreira
+  last_updated_on: 2024-01-09 14:29:30.000000000 Z
+- name: appengine
+  description: Go App Engine packages
+  package_url: https://pkg.go.dev/google.golang.org/appengine
+  version: 1.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/gcp/go.sum
+  detection_source: go.mod
+  last_updated_by: Steven Clark
+  last_updated_on: 2024-04-11 16:25:09.000000000 Z
+- name: armon/go-metrics
+  description: A Golang library for exporting performance and runtime metrics to external
+    metrics systems
+  package_url: https://pkg.go.dev/github.com/armon/go-metrics
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Steven Clark
+  last_updated_on: 2024-04-11 16:25:09.000000000 Z
+- name: atomic
+  description: Wrapper types for sync/atomic which enforce atomic access
+  package_url: https://pkg.go.dev/go.uber.org/atomic
+  version: 1.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Tom Proctor
+  last_updated_on: 2024-03-04 18:29:20.000000000 Z
+- name: autorest
+  description: This package implements an HTTP request pipeline suitable for use across
+    multiple go-routines and provides the shared routines relied on by AutoRest generated
+    Go code
+  package_url: https://pkg.go.dev/github.com/Azure/go-autorest/autorest
+  version: 0.9.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-02 19:05:47.000000000 Z
+- name: aws-sdk-go
+  description: AWS SDK for the Go programming language
+  package_url: https://pkg.go.dev/github.com/aws/aws-sdk-go
+  version: 1.30.27
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/aws/go.sum
+  detection_source: api/auth/aws/go.mod
+  last_updated_by: Violet Hynes
+  last_updated_on: 2024-01-17 20:17:00.000000000 Z
+- name: backoff
+  description: The exponential backoff algorithm in Go
+  package_url: https://pkg.go.dev/github.com/cenkalti/backoff
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-04 18:20:09.000000000 Z
+- name: barcode
+  description: A barcode creation lib for golang
+  package_url: https://pkg.go.dev/github.com/boombuler/barcode
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/gcp/go.sum
+  detection_source: go.mod
+  last_updated_by: Nick Cabatoff
+  last_updated_on: 2023-04-24 18:25:50.000000000 Z
+- name: bolt
+  description: An embedded key/value database for Go
+  package_url: https://pkg.go.dev/github.com/boltdb/bolt
+  version: 1.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Christopher Swenson
+  last_updated_on: 2024-01-08 18:36:58.000000000 Z
+- name: browser
+  description: Package browser provides helpers to open files
+  package_url: https://pkg.go.dev/github.com/pkg/browser
+  version: 0.0.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-02 20:35:42.000000000 Z
+- name: cachecontrol
+  description: Golang HTTP Cache-Control Parser and Interpretation
+  package_url: https://pkg.go.dev/github.com/pquerna/cachecontrol
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-08 17:43:07.000000000 Z
+- name: cast
+  description: Safe and easy casting from one type to another in Go
+  package_url: https://pkg.go.dev/github.com/spf13/cast
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Violet Hynes
+  last_updated_on: 2024-02-13 19:49:35.000000000 Z
+- name: check.v1
+  description: Package check is a rich testing extension for Go's testing package
+  package_url: https://pkg.go.dev/gopkg.in/check.v1
+  version: 0.0.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: sdk/go.mod
+  last_updated_by: Nick Cabatoff
+  last_updated_on: 2023-04-24 13:57:37.000000000 Z
+- name: circonus-gometrics
+  description: A go implementation of metrics reporting for Circonus
+  package_url: https://pkg.go.dev/github.com/circonus-labs/circonus-gometrics
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-04-05 16:52:47.000000000 Z
+- name: circonusllhist
+  description: A go implementation of Circonus log-linear histograms
+  package_url: https://pkg.go.dev/github.com/circonus-labs/circonusllhist
+  version: 0.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-09 14:49:38.000000000 Z
+- name: client-go
+  description: Go client for Kubernetes
+  package_url: https://pkg.go.dev/k8s.io/client-go
+  version: 0.18.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Peter Wilson
+  last_updated_on: 2024-03-14 10:13:45.000000000 Z
+- name: client_model
+  description: Data model artifacts for Prometheus
+  package_url: https://pkg.go.dev/github.com/prometheus/client_model
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/gcp/go.sum
+  detection_source: go.mod
+  last_updated_by: Peter Wilson
+  last_updated_on: 2024-03-14 10:13:45.000000000 Z
+- name: color
+  description: Color package for Go
+  package_url: https://pkg.go.dev/github.com/fatih/color
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: api/go.mod
+  last_updated_by: Tom Proctor
+  last_updated_on: 2024-03-04 18:29:20.000000000 Z
+- name: colorstring
+  description: Go
+  package_url: https://pkg.go.dev/github.com/mitchellh/colorstring
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-05 20:08:37.000000000 Z
+- name: columnize
+  description: Easy column formatted output for golang
+  package_url: https://pkg.go.dev/github.com/ryanuber/columnize
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2023-09-05 14:53:20.000000000 Z
+- name: common
+  description: Go libraries shared across Prometheus components and libraries
+  package_url: https://pkg.go.dev/github.com/prometheus/common
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Peter Wilson
+  last_updated_on: 2024-03-14 10:13:45.000000000 Z
+- name: complete
+  description: Bash completion written in go + bash completion for go command
+  package_url: https://pkg.go.dev/github.com/posener/complete
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: go.mod
+  last_updated_by: Violet Hynes
+  last_updated_on: 2024-02-15 21:07:38.000000000 Z
+- name: compress
+  description: Optimized compression packages
+  package_url: https://pkg.go.dev/github.com/klauspost/compress
+  version: 1.15.9
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/gcp/go.sum
+  detection_source: go.mod
+  last_updated_by: Violet Hynes
+  last_updated_on: 2024-02-15 21:07:38.000000000 Z
+- name: consul-template
+  description: Template rendering
+  package_url: https://pkg.go.dev/github.com/hashicorp/consul-template
+  version: 0.37.3
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: divyaac
+  last_updated_on: 2024-03-27 17:06:45.000000000 Z
+- name: consul/api
+  description: Consul is a distributed
+  package_url: https://pkg.go.dev/github.com/hashicorp/consul/api
+  version: 1.1.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: divyaac
+  last_updated_on: 2024-03-27 17:06:45.000000000 Z
+- name: continuity
+  description: A transport-agnostic, filesystem metadata manifest system
+  package_url: https://pkg.go.dev/github.com/containerd/continuity
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Violet Hynes
+  last_updated_on: 2024-02-15 21:07:38.000000000 Z
+- name: copystructure
+  description: Go
+  package_url: https://pkg.go.dev/github.com/mitchellh/copystructure
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-05 20:08:37.000000000 Z
+- name: datadog-go
+  description: Go client library for datadog
+  package_url: https://pkg.go.dev/github.com/DataDog/datadog-go
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Robert
+  last_updated_on: 2024-02-08 19:04:02.000000000 Z
+- name: date
+  description: This package implements an HTTP request pipeline suitable for use across
+    multiple go-routines and provides the shared routines relied on by AutoRest generated
+    Go code
+  package_url: https://pkg.go.dev/github.com/Azure/go-autorest/autorest/date
+  version: 0.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Bianca Moreira
+  last_updated_on: 2024-01-09 14:29:30.000000000 Z
+- name: dbus
+  description: Native Go bindings for D-Bus
+  package_url: https://pkg.go.dev/github.com/godbus/dbus
+  version: 0.0.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Max Coulombe
+  last_updated_on: 2023-05-26 13:48:25.000000000 Z
+- name: decimal
+  description: Arbitrary-precision fixed-point decimal numbers in go
+  package_url: https://pkg.go.dev/github.com/shopspring/decimal
+  version: 0.0.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Violet Hynes
+  last_updated_on: 2023-04-03 18:14:47.000000000 Z
+- name: deep
+  description: Golang deep variable equality test that returns human-readable differences
+  package_url: https://pkg.go.dev/github.com/go-test/deep
+  version: 1.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: api/go.mod
+  last_updated_by: Clint
+  last_updated_on: 2020-06-23 11:01:39.000000000 Z
+- name: dockertest
+  description: Write better integration tests! Dockertest helps you boot up ephermal
+    docker images for your Go tests with minimal work
+  package_url: https://pkg.go.dev/github.com/ory/dockertest
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: John-Michael Faircloth
+  last_updated_on: 2024-03-28 18:45:43.000000000 Z
+- name: dockertest.v3
+  description: Package dockertest contains helper functions for setting up and tearing
+    down docker containers to aid in testing
+  package_url: https://pkg.go.dev/gopkg.in/ory-am/dockertest.v3
+  version: 3.3.4
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: John-Michael Faircloth
+  last_updated_on: 2024-03-28 18:45:43.000000000 Z
+- name: duo_api_golang
+  description: Overview duo_client - Demonstration client to call Duo API methods
+    with Go
+  package_url: https://pkg.go.dev/github.com/duosecurity/duo_api_golang
+  version: 0.0.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-04-05 16:52:47.000000000 Z
+- name: easyjson
+  description: Fast JSON serializer for golang
+  package_url: https://pkg.go.dev/github.com/mailru/easyjson
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-08 14:47:12.000000000 Z
+- name: envconfig
+  description: Golang library for managing configuration data from environment variables
+  package_url: https://pkg.go.dev/github.com/kelseyhightower/envconfig
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Christopher Swenson
+  last_updated_on: 2024-02-05 21:17:07.000000000 Z
+- name: envoyproxy/protoc-gen-validate
+  description: Protoc plugin to generate polyglot message validators
+  package_url: https://pkg.go.dev/github.com/envoyproxy/protoc-gen-validate
+  version: 0.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/gcp/go.sum
+  detection_source: go.mod
+  last_updated_by: John-Michael Faircloth
+  last_updated_on: 2024-03-28 18:45:43.000000000 Z
+- name: errors
+  description: Simple error handling primitives
+  package_url: https://pkg.go.dev/github.com/pkg/errors
+  version: 0.9.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/aws/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-06 15:20:50.000000000 Z
+- name: errwrap
+  description: Errwrap is a Go
+  package_url: https://pkg.go.dev/github.com/hashicorp/errwrap
+  version: 1.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: api/go.mod
+  last_updated_by: Jeff Mitchell
+  last_updated_on: 2021-07-21 00:42:00.000000000 Z
+- name: etcd
+  description: Distributed reliable key-value store for the most critical data of
+    a distributed system
+  package_url: https://pkg.go.dev/github.com/coreos/etcd
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Josh Black
+  last_updated_on: 2024-01-25 18:08:50.000000000 Z
+- name: exp
+  description: Experimental and deprecated packages
+  package_url: https://pkg.go.dev/golang.org/x/exp
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/gcp/go.sum
+  detection_source: go.mod
+  last_updated_by: Jeff Mitchell
+  last_updated_on: 2019-04-13 07:44:06.000000000 Z
+- name: filepath-securejoin
+  description: Proposed filepath.SecureJoin implementation
+  package_url: https://pkg.go.dev/github.com/cyphar/filepath-securejoin
+  version: 0.2.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: vinay-gopalan
+  last_updated_on: 2024-04-19 16:57:17.000000000 Z
+- name: gabs
+  description: For parsing
+  package_url: https://pkg.go.dev/github.com/Jeffail/gabs
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Nick Cabatoff
+  last_updated_on: 2021-10-21 13:32:03.000000000 Z
+- name: go
+  description: Google Cloud Client Libraries for Go
+  package_url: https://pkg.go.dev/cloud.google.com/go
+  version: 0.26.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/gcp/go.sum
+  detection_source: go.mod
+  last_updated_by: Jeff Mitchell
+  last_updated_on: 2019-04-13 07:44:06.000000000 Z
+- name: go-ansiterm
+  description: Go package for ANSI terminal emulation in Windows
+  package_url: https://pkg.go.dev/github.com/Azure/go-ansiterm
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-04-05 16:52:47.000000000 Z
+- name: go-autorest
+  description: This package implements an HTTP request pipeline suitable for use across
+    multiple go-routines and provides the shared routines relied on by AutoRest generated
+    Go code
+  package_url: https://pkg.go.dev/github.com/Azure/go-autorest
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-04-05 16:52:47.000000000 Z
+- name: go-autorest/logger
+  description: This package implements an HTTP request pipeline suitable for use across
+    multiple go-routines and provides the shared routines relied on by AutoRest generated
+    Go code
+  package_url: https://pkg.go.dev/github.com/Azure/go-autorest/logger
+  version: 0.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-04-05 16:52:47.000000000 Z
+- name: go-cache
+  description: An in-memory key:value store/cache
+  package_url: https://pkg.go.dev/github.com/patrickmn/go-cache
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-08 17:43:07.000000000 Z
+- name: go-cfclient
+  description: Golang client lib for Cloud Foundry
+  package_url: https://pkg.go.dev/github.com/cloudfoundry-community/go-cfclient
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Peter Wilson
+  last_updated_on: 2024-03-14 10:13:45.000000000 Z
+- name: go-cleanhttp
+  description: Cleanhttp Functions for accessing "clean" Go http.Client values The
+    Go standard library contains a default called
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-cleanhttp
+  version: 0.5.1
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: api/go.mod
+  last_updated_by: Tom Proctor
+  last_updated_on: 2024-03-04 18:29:20.000000000 Z
+- name: go-colorable
+  description: Go-colorable Colorable writer for windows
+  package_url: https://pkg.go.dev/github.com/mattn/go-colorable
+  version: 0.0.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: api/go.mod
+  last_updated_by: Tom Proctor
+  last_updated_on: 2024-03-04 18:29:20.000000000 Z
+- name: go-connections
+  description: Utility package to work with network connections
+  package_url: https://pkg.go.dev/github.com/docker/go-connections
+  version: 0.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-03-15 16:29:20.000000000 Z
+- name: go-context
+  description: Context.Context extentions
+  package_url: https://pkg.go.dev/github.com/jbenet/go-context
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-07 18:30:59.000000000 Z
+- name: go-deadlock
+  description: Online deadlock detection in go
+  package_url: https://pkg.go.dev/github.com/sasha-s/go-deadlock
+  version: 0.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-07 19:23:58.000000000 Z
+- name: go-diff
+  description: Diff, match and patch text in Go
+  package_url: https://pkg.go.dev/github.com/sergi/go-diff
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-07 19:23:58.000000000 Z
+- name: go-difflib
+  description: Partial port of Python difflib package to Go
+  package_url: https://pkg.go.dev/github.com/pmezard/go-difflib
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: api/go.mod
+  last_updated_by: Marc Boudreau
+  last_updated_on: 2024-01-23 18:20:58.000000000 Z
+- name: go-digest
+  description: Common digest package used across the container ecosystem
+  package_url: https://pkg.go.dev/github.com/opencontainers/go-digest
+  version: 0.0.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-07 19:23:58.000000000 Z
+- name: go-discover
+  description: Discover nodes in cloud environments
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-discover
+  version: 0.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-07 19:23:58.000000000 Z
+- name: go-errors/errors
+  description: Errors with stacktraces for go
+  package_url: https://pkg.go.dev/github.com/go-errors/errors
+  version: 1.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-06 15:20:50.000000000 Z
+- name: go-github
+  description: Go library for accessing the GitHub API
+  package_url: https://pkg.go.dev/github.com/google/go-github
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: vinay-gopalan
+  last_updated_on: 2024-04-19 16:57:17.000000000 Z
+- name: go-glob
+  description: Basic string globs in golang
+  package_url: https://pkg.go.dev/github.com/ryanuber/go-glob
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: api/go.mod
+  last_updated_by: VAL
+  last_updated_on: 2022-06-09 20:15:18.000000000 Z
+- name: go-hclog
+  description: A common logging package for HashiCorp tools
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-hclog
+  version: 0.9.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: api/auth/aws/go.mod
+  last_updated_by: VAL
+  last_updated_on: 2021-10-26 23:48:48.000000000 Z
+- name: go-homedir
+  description: Go library for detecting and expanding the user's home directory without
+    cgo
+  package_url: https://pkg.go.dev/github.com/mitchellh/go-homedir
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: api/go.mod
+  last_updated_by: Tom Proctor
+  last_updated_on: 2024-03-04 18:29:20.000000000 Z
+- name: go-hostpool
+  description: Intelligently and flexibly pool among multiple hosts from your Go application
+  package_url: https://pkg.go.dev/github.com/hailocab/go-hostpool
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-01-22 17:59:08.000000000 Z
+- name: go-humanize
+  description: Go Humans!
+  package_url: https://pkg.go.dev/github.com/dustin/go-humanize
+  version: 1.0.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/gcp/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-01-22 17:59:08.000000000 Z
+- name: go-immutable-radix
+  description: An immutable radix tree implementation in Golang
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-immutable-radix
+  version: 1.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Chris Capurso
+  last_updated_on: 2024-04-26 16:51:24.000000000 Z
+- name: go-isatty
+  description: Package isatty implements interface to isatty
+  package_url: https://pkg.go.dev/github.com/mattn/go-isatty
+  version: 0.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: api/go.mod
+  last_updated_by: Tom Proctor
+  last_updated_on: 2024-03-04 18:29:20.000000000 Z
+- name: go-jmespath
+  description: Golang implementation of JMESPath
+  package_url: https://pkg.go.dev/github.com/jmespath/go-jmespath
+  version: 0.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/aws/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-04-05 16:52:47.000000000 Z
+- name: go-jose.v2
+  description: Package jose aims to provide an implementation of the Javascript Object
+    Signing and Encryption set of standards
+  package_url: https://pkg.go.dev/gopkg.in/square/go-jose.v2
+  version: 2.2.2
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-04-05 16:52:47.000000000 Z
+- name: go-memdb
+  description: Golang in-memory database built on immutable radix trees
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-memdb
+  version: 1.3.4
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Bianca Moreira
+  last_updated_on: 2024-01-09 14:29:30.000000000 Z
+- name: go-metro
+  description: Go translation of MetroHash
+  package_url: https://pkg.go.dev/github.com/dgryski/go-metro
+  version: 0.0.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-04-05 16:52:47.000000000 Z
+- name: go-mssqldb
+  description: Microsoft SQL server driver written in go language
+  package_url: https://pkg.go.dev/github.com/denisenkom/go-mssqldb
+  version: 0.12.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Bianca Moreira
+  last_updated_on: 2024-01-09 14:29:30.000000000 Z
+- name: go-multierror
+  description: A Go
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-multierror
+  version: 1.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: api/go.mod
+  last_updated_by: Jeff Mitchell
+  last_updated_on: 2021-07-21 00:42:00.000000000 Z
+- name: go-ntlmssp
+  description: NTLM/Negotiate authentication over HTTP
+  package_url: https://pkg.go.dev/github.com/Azure/go-ntlmssp
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Robert
+  last_updated_on: 2023-05-25 17:29:42.000000000 Z
+- name: go-oidc
+  description: A Go OpenID Connect client
+  package_url: https://pkg.go.dev/github.com/coreos/go-oidc
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: John-Michael Faircloth
+  last_updated_on: 2024-03-28 18:45:43.000000000 Z
+- name: go-ole
+  description: Win32 ole implementation for golang
+  package_url: https://pkg.go.dev/github.com/go-ole/go-ole
+  version: 1.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: John-Michael Faircloth
+  last_updated_on: 2024-03-28 18:45:43.000000000 Z
+- name: go-openapi/errors
+  description: Openapi toolkit common errors
+  package_url: https://pkg.go.dev/github.com/go-openapi/errors
+  version: 0.20.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-04-05 16:52:47.000000000 Z
+- name: go-plugin
+  description: Golang plugin system over RPC
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-plugin
+  version: 1.6.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: vinay-gopalan
+  last_updated_on: 2024-04-19 16:57:17.000000000 Z
+- name: go-querystring
+  description: Go-querystring is Go library for encoding structs into URL query parameters
+  package_url: https://pkg.go.dev/github.com/google/go-querystring
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-05 20:08:37.000000000 Z
+- name: go-radix
+  description: Golang implementation of Radix trees
+  package_url: https://pkg.go.dev/github.com/armon/go-radix
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: go.mod
+  last_updated_by: Chris Capurso
+  last_updated_on: 2024-04-26 16:51:24.000000000 Z
+- name: go-retryablehttp
+  description: Retryable HTTP client in Go
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-retryablehttp
+  version: 0.6.6
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: api/go.mod
+  last_updated_by: Tom Proctor
+  last_updated_on: 2024-03-04 18:29:20.000000000 Z
+- name: go-rootcerts
+  description: Functions for loading root certificates for TLS connections
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-rootcerts
+  version: 1.0.2
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: api/go.mod
+  last_updated_by: ncabatoff
+  last_updated_on: 2020-07-08 19:04:11.000000000 Z
+- name: go-semver
+  description: Semver library in Go
+  package_url: https://pkg.go.dev/github.com/coreos/go-semver
+  version: 0.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-08 14:47:12.000000000 Z
+- name: go-sockaddr
+  description: IP Address/UNIX Socket convenience functions for Go
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-sockaddr
+  version: 1.0.2
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: api/go.mod
+  last_updated_by: Marc Boudreau
+  last_updated_on: 2024-01-23 18:20:58.000000000 Z
+- name: go-spew
+  description: Implements a deep pretty printer for Go data structures to aid in debugging
+  package_url: https://pkg.go.dev/github.com/davecgh/go-spew
+  version: 1.1.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: api/go.mod
+  last_updated_by: Marc Boudreau
+  last_updated_on: 2024-01-23 18:20:58.000000000 Z
+- name: go-syslog
+  description: Golang syslog wrapper, cross-compile friendly
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-syslog
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-08 14:47:12.000000000 Z
+- name: go-systemd
+  description: Go bindings to systemd socket activation
+  package_url: https://pkg.go.dev/github.com/coreos/go-systemd
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-08 14:47:12.000000000 Z
+- name: go-testing-interface
+  description: Go
+  package_url: https://pkg.go.dev/github.com/mitchellh/go-testing-interface
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: John-Michael Faircloth
+  last_updated_on: 2024-03-28 18:45:43.000000000 Z
+- name: go-tfe
+  description: Terraform Enterprise API Client / SDK in Golang
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-tfe
+  version: 1.44.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-08 14:47:12.000000000 Z
+- name: go-units
+  description: Parse and print size and time units in human-readable format
+  package_url: https://pkg.go.dev/github.com/docker/go-units
+  version: 0.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2023-09-05 14:53:20.000000000 Z
+- name: go-version
+  description: A Go
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-version
+  version: 1.6.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Christopher Swenson
+  last_updated_on: 2024-02-05 21:17:07.000000000 Z
+- name: go-winio
+  description: Win32 IO-related utilities for Go
+  package_url: https://pkg.go.dev/github.com/Microsoft/go-winio
+  version: 0.4.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2023-09-05 14:53:20.000000000 Z
+- name: go-wordwrap
+  description: A Go
+  package_url: https://pkg.go.dev/github.com/mitchellh/go-wordwrap
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: go.mod
+  last_updated_by: Steven Clark
+  last_updated_on: 2024-04-11 16:25:09.000000000 Z
+- name: go/compute/metadata
+  description: Google Cloud Client Libraries for Go
+  package_url: https://pkg.go.dev/cloud.google.com/go/compute/metadata
+  version: 0.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/gcp/go.sum
+  detection_source: api/auth/gcp/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-04 17:34:00.000000000 Z
+- name: go/iam
+  description: Google Cloud Client Libraries for Go
+  package_url: https://pkg.go.dev/cloud.google.com/go/iam
+  version: 0.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/gcp/go.sum
+  detection_source: api/auth/gcp/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-04 17:34:00.000000000 Z
+- name: go/storage
+  description: Google Cloud Client Libraries for Go
+  package_url: https://pkg.go.dev/cloud.google.com/go/storage
+  version: 1.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/gcp/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-07 17:31:16.000000000 Z
+- name: gobreaker
+  description: Circuit Breaker implemented in Go
+  package_url: https://pkg.go.dev/github.com/sony/gobreaker
+  version: 0.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-06 22:58:41.000000000 Z
+- name: gocql
+  description: Package gocql implements a fast and robust Cassandra client for the
+    Go programming language
+  package_url: https://pkg.go.dev/github.com/gocql/gocql
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Conrad Kleinespel
+  last_updated_on: 2022-04-18 18:12:32.000000000 Z
+- name: godebug
+  description: Debugging helper utilities for Go
+  package_url: https://pkg.go.dev/github.com/kylelemons/godebug
+  version: 1.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: vinay-gopalan
+  last_updated_on: 2023-02-08 22:15:48.000000000 Z
+- name: godo
+  description: DigitalOcean Go API client
+  package_url: https://pkg.go.dev/github.com/digitalocean/godo
+  version: 1.7.5
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Nick Cabatoff
+  last_updated_on: 2021-10-21 13:32:03.000000000 Z
+- name: gods
+  description: GoDS
+  package_url: https://pkg.go.dev/github.com/emirpasic/gods
+  version: 1.18.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Nick Cabatoff
+  last_updated_on: 2023-07-06 16:35:06.000000000 Z
+- name: gofuzz
+  description: Fuzz testing for go
+  package_url: https://pkg.go.dev/github.com/google/gofuzz
+  version: 1.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: vinay-gopalan
+  last_updated_on: 2023-03-29 16:01:35.000000000 Z
+- name: goid
+  description: Goid Demo of how to programatically retrieve the current goroutine's
+    ID
+  package_url: https://pkg.go.dev/github.com/petermattis/goid
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Nick Cabatoff
+  last_updated_on: 2021-10-21 13:32:03.000000000 Z
+- name: gojsonpointer
+  description: JSON Pointer implementation in Golang
+  package_url: https://pkg.go.dev/github.com/xeipuuv/gojsonpointer
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-08 14:47:12.000000000 Z
+- name: gojsonreference
+  description: JSON Reference implementation in Golang
+  package_url: https://pkg.go.dev/github.com/xeipuuv/gojsonreference
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Violet Hynes
+  last_updated_on: 2024-02-15 21:07:38.000000000 Z
+- name: gojsonschema
+  description: An implementation of JSON Schema
+  package_url: https://pkg.go.dev/github.com/xeipuuv/gojsonschema
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-08 14:47:12.000000000 Z
+- name: golang-lru
+  description: Golang LRU cache
+  package_url: https://pkg.go.dev/github.com/hashicorp/golang-lru
+  version: 0.5.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/gcp/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-04-05 16:52:47.000000000 Z
+- name: google/uuid
+  description: 'Go package for UUIDs based on RFC 4122 and DCE 1.1: Authentication
+    and Security Services'
+  package_url: https://pkg.go.dev/github.com/google/uuid
+  version: 1.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/gcp/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-04-05 16:52:47.000000000 Z
+- name: gopher-lua
+  description: 'GopherLua: VM and compiler for Lua in Go'
+  package_url: https://pkg.go.dev/github.com/yuin/gopher-lua
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2023-08-30 20:09:00.000000000 Z
+- name: gophercloud
+  description: 'Gophercloud: an OpenStack SDK for Go'
+  package_url: https://pkg.go.dev/github.com/gophercloud/gophercloud
+  version: 0.1.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-07 17:22:09.000000000 Z
+- name: govalidator
+  description: Package of validators and sanitizers for strings
+  package_url: https://pkg.go.dev/github.com/asaskevich/govalidator
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Bianca Moreira
+  last_updated_on: 2024-01-09 14:29:30.000000000 Z
+- name: govmomi
+  description: Go library for the VMware vSphere API
+  package_url: https://pkg.go.dev/github.com/vmware/govmomi
+  version: 0.18.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Nick Cabatoff
+  last_updated_on: 2021-10-21 13:32:03.000000000 Z
+- name: groupcache
+  description: Groupcache is a caching and cache-filling library
+  package_url: https://pkg.go.dev/github.com/golang/groupcache
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/gcp/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-08 17:43:07.000000000 Z
+- name: hashicorp/go-uuid
+  description: Generates UUID-format strings using purely high quality random bytes
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-uuid
+  version: 1.0.2
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/aws/go.sum
+  detection_source: api/auth/aws/go.mod
+  last_updated_by: Violet Hynes
+  last_updated_on: 2024-02-08 15:46:33.000000000 Z
+- name: hashicorp/mdns
+  description: Simple mDNS client/server library in Golang
+  package_url: https://pkg.go.dev/github.com/hashicorp/mdns
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: vinay-gopalan
+  last_updated_on: 2024-04-19 16:57:17.000000000 Z
+- name: hashstructure
+  description: Get hash values for arbitrary values in Go
+  package_url: https://pkg.go.dev/github.com/mitchellh/hashstructure
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: vinay-gopalan
+  last_updated_on: 2024-04-19 16:57:17.000000000 Z
+- name: hcl
+  description: HCL is the HashiCorp configuration language
+  package_url: https://pkg.go.dev/github.com/hashicorp/hcl
+  version: 1.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: api/go.mod
+  last_updated_by: Jeff Mitchell
+  last_updated_on: 2019-04-12 21:54:35.000000000 Z
+- name: httpsnoop
+  description: Package httpsnoop provides an easy way to capture http related metrics
+  package_url: https://pkg.go.dev/github.com/felixge/httpsnoop
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-07 18:30:59.000000000 Z
+- name: httpunix
+  description: Go library to talk HTTP over Unix domain sockets
+  package_url: https://pkg.go.dev/github.com/tv42/httpunix
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-07 18:30:59.000000000 Z
+- name: inf.v0
+  description: Package inf
+  package_url: https://pkg.go.dev/gopkg.in/inf.v0
+  version: 0.9.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Nick Cabatoff
+  last_updated_on: 2021-10-21 13:32:03.000000000 Z
+- name: ini.v1
+  description: Package ini provides INI file read and write functionality in Go
+  package_url: https://pkg.go.dev/gopkg.in/ini.v1
+  version: 1.51.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Scott Miller
+  last_updated_on: 2022-08-23 19:37:16.000000000 Z
+- name: jose2go
+  description: Golang
+  package_url: https://pkg.go.dev/github.com/dvsekhvalnov/jose2go
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-04-05 16:52:47.000000000 Z
+- name: json-iterator/go
+  description: A high-performance 100% compatible drop-in replacement of "encoding/json"
+  package_url: https://pkg.go.dev/github.com/json-iterator/go
+  version: 1.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-08 14:47:12.000000000 Z
+- name: jsonpointer
+  description: Fork of gojsonpointer with support for structs
+  package_url: https://pkg.go.dev/github.com/go-openapi/jsonpointer
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-08 14:47:12.000000000 Z
+- name: jsonreference
+  description: Fork of gojsonreference with support for structs
+  package_url: https://pkg.go.dev/github.com/go-openapi/jsonreference
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Violet Hynes
+  last_updated_on: 2024-02-15 21:07:38.000000000 Z
+- name: jsonx
+  description: Object or JSON -&gt; JSONx
+  package_url: https://pkg.go.dev/github.com/jefferai/jsonx
+  version: 1.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-08 14:47:12.000000000 Z
+- name: kr/text
+  description: Miscellaneous functions for formatting text
+  package_url: https://pkg.go.dev/github.com/kr/text
+  version: 0.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/aws/go.sum
+  detection_source: go.mod
+  last_updated_by: John-Michael Faircloth
+  last_updated_on: 2024-03-28 18:45:43.000000000 Z
+- name: loads
+  description: Openapi specification object model
+  package_url: https://pkg.go.dev/github.com/go-openapi/loads
+  version: 0.21.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Bianca Moreira
+  last_updated_on: 2024-01-09 14:29:30.000000000 Z
+- name: logr
+  description: A simple logging interface for Go
+  package_url: https://pkg.go.dev/github.com/go-logr/logr
+  version: 0.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-01-24 18:08:41.000000000 Z
+- name: logrus
+  description: Structured, pluggable logging for Go
+  package_url: https://pkg.go.dev/github.com/sirupsen/logrus
+  version: 1.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-01-24 18:08:41.000000000 Z
+- name: logutils
+  description: Utilities for slightly better logging in Go
+  package_url: https://pkg.go.dev/github.com/hashicorp/logutils
+  version: 1.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-07 18:30:59.000000000 Z
+- name: lz4
+  description: LZ4 compression and decompression in pure Go
+  package_url: https://pkg.go.dev/github.com/pierrec/lz4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Jeff Mitchell
+  last_updated_on: 2019-04-13 07:44:06.000000000 Z
+- name: mapstructure
+  description: Go library for decoding generic map values into native Go structures
+  package_url: https://pkg.go.dev/github.com/mitchellh/mapstructure
+  version: 1.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: api/go.mod
+  last_updated_by: Nick Cabatoff
+  last_updated_on: 2023-02-06 14:41:56.000000000 Z
+- name: mergo
+  description: 'Mergo: merging Go structs and maps since 2013'
+  package_url: https://pkg.go.dev/github.com/imdario/mergo
+  version: 0.3.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Violet Hynes
+  last_updated_on: 2024-02-13 19:49:35.000000000 Z
+- name: mimetype
+  description: A golang library for detecting the MIME type and file extension
+  package_url: https://pkg.go.dev/github.com/gabriel-vasile/mimetype
+  version: 1.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Josh Black
+  last_updated_on: 2023-06-20 20:50:24.000000000 Z
+- name: montanaflynn/stats
+  description: A statistics package with common functions that are missing from the
+    Golang standard library
+  package_url: https://pkg.go.dev/github.com/montanaflynn/stats
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-07 18:30:59.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: api/go.mod
+  last_updated_by: Jeff Mitchell
+  last_updated_on: 2019-04-12 21:54:35.000000000 Z
+- name: nomad/api
+  description: Nomad is an easy-to-use, flexible, and performant workload orchestrator
+    that can deploy a mix of microservice, batch, containerized, and non-containerized
+    applications
+  package_url: https://pkg.go.dev/github.com/hashicorp/nomad/api
+  version: 0.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Violet Hynes
+  last_updated_on: 2024-02-13 19:49:35.000000000 Z
+- name: oauth2
+  description: Go OAuth2
+  package_url: https://pkg.go.dev/golang.org/x/oauth2
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/gcp/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-04-05 16:52:47.000000000 Z
+- name: objx
+  description: Go package for dealing with maps
+  package_url: https://pkg.go.dev/github.com/stretchr/objx
+  version: 0.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: go.mod
+  last_updated_by: John-Michael Faircloth
+  last_updated_on: 2024-03-28 18:45:43.000000000 Z
+- name: oci-go-sdk
+  description: Go SDK for Oracle Cloud Infrastructure
+  package_url: https://pkg.go.dev/github.com/oracle/oci-go-sdk
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-08 17:43:07.000000000 Z
+- name: open-golang
+  description: Open a file, directory, or URI using the OS's default application for
+    that object type
+  package_url: https://pkg.go.dev/github.com/skratchdot/open-golang
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-04-05 16:52:47.000000000 Z
+- name: opentracing-go
+  description: OpenTracing API for Go
+  package_url: https://pkg.go.dev/github.com/opentracing/opentracing-go
+  version: 1.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-04-05 16:52:47.000000000 Z
+- name: otp
+  description: TOTP library for Go
+  package_url: https://pkg.go.dev/github.com/pquerna/otp
+  version: 1.2.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jeff Mitchell
+  last_updated_on: 2019-04-13 07:44:06.000000000 Z
+- name: ozzo-validation
+  description: An idiomatic Go
+  package_url: https://pkg.go.dev/github.com/go-ozzo/ozzo-validation
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-05 20:08:37.000000000 Z
+- name: packngo
+  description: Packet Go API Client
+  package_url: https://pkg.go.dev/github.com/packethost/packngo
+  version: 0.1.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Bianca Moreira
+  last_updated_on: 2024-01-09 14:29:30.000000000 Z
+- name: perks
+  description: Effective Computation of Things
+  package_url: https://pkg.go.dev/github.com/beorn7/perks
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Nick Cabatoff
+  last_updated_on: 2021-10-21 13:32:03.000000000 Z
+- name: pflag
+  description: Drop-in replacement for Go's flag package
+  package_url: https://pkg.go.dev/github.com/spf13/pflag
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Nick Cabatoff
+  last_updated_on: 2021-10-21 13:32:03.000000000 Z
+- name: pgx
+  description: PostgreSQL driver and toolkit for Go
+  package_url: https://pkg.go.dev/github.com/jackc/pgx
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Jeff Mitchell
+  last_updated_on: 2019-04-13 07:44:06.000000000 Z
+- name: pgzip
+  description: Go parallel gzip
+  package_url: https://pkg.go.dev/github.com/klauspost/pgzip
+  version: 1.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Zach Stone
+  last_updated_on: 2022-03-16 14:42:21.000000000 Z
+- name: pkg
+  description: A collection of go utility packages
+  package_url: https://pkg.go.dev/github.com/coreos/pkg
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jeff Mitchell
+  last_updated_on: 2019-04-13 07:44:06.000000000 Z
+- name: pq
+  description: Pure Go Postgres driver for database/sql
+  package_url: https://pkg.go.dev/github.com/lib/pq
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jeff Mitchell
+  last_updated_on: 2019-04-13 07:44:06.000000000 Z
+- name: pretty
+  description: Pretty printing for Go values
+  package_url: https://pkg.go.dev/github.com/kr/pretty
+  version: 0.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/aws/go.sum
+  detection_source: go.mod
+  last_updated_by: Daniel Huckins
+  last_updated_on: 2023-05-19 22:11:41.000000000 Z
+- name: procfs
+  description: Procfs provides functions to retrieve system
+  package_url: https://pkg.go.dev/github.com/prometheus/procfs
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Peter Wilson
+  last_updated_on: 2024-03-14 10:13:45.000000000 Z
+- name: proto
+  description: Go support for Google's protocol buffers
+  package_url: https://pkg.go.dev/github.com/golang/protobuf/proto
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: John-Michael Faircloth
+  last_updated_on: 2024-03-28 18:45:43.000000000 Z
+- name: raft
+  description: Golang implementation of the Raft consensus protocol
+  package_url: https://pkg.go.dev/github.com/hashicorp/raft
+  version: 1.0.1
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Nick Cabatoff
+  last_updated_on: 2024-02-16 18:19:46.000000000 Z
+- name: rardecode
+  description: A go package for reading RAR archives
+  package_url: https://pkg.go.dev/github.com/nwaples/rardecode
+  version: 1.1.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Nick Cabatoff
+  last_updated_on: 2023-04-24 18:25:50.000000000 Z
+- name: reflect2
+  description: Reflect api without runtime reflect.Value cost
+  package_url: https://pkg.go.dev/github.com/modern-go/reflect2
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Nick Cabatoff
+  last_updated_on: 2021-11-16 20:07:03.000000000 Z
+- name: reflectwalk
+  description: Reflectwalk is a Go library for "walking" complex structures
+  package_url: https://pkg.go.dev/github.com/mitchellh/reflectwalk
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Nick Cabatoff
+  last_updated_on: 2021-11-16 20:07:03.000000000 Z
+- name: run
+  description: A universal mechanism to manage goroutine lifecycles
+  package_url: https://pkg.go.dev/github.com/oklog/run
+  version: 1.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jeff Mitchell
+  last_updated_on: 2019-04-13 07:44:06.000000000 Z
+- name: runtime
+  description: Openapi runtime interfaces
+  package_url: https://pkg.go.dev/github.com/go-openapi/runtime
+  version: 0.26.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-01-22 17:59:08.000000000 Z
+- name: runtime/client
+  description: Openapi runtime interfaces
+  package_url: https://pkg.go.dev/github.com/go-openapi/runtime/client
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Peter Wilson
+  last_updated_on: 2024-03-14 10:13:45.000000000 Z
+- name: shlex
+  description: Automatically exported from code.google.com/p/go-shlex
+  package_url: https://pkg.go.dev/github.com/google/shlex
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Ben Ash
+  last_updated_on: 2021-10-27 14:01:34.000000000 Z
+- name: snappy
+  description: The Snappy compression format in the Go programming language
+  package_url: https://pkg.go.dev/github.com/golang/snappy
+  version: 0.0.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/gcp/go.sum
+  detection_source: go.mod
+  last_updated_by: swayne275
+  last_updated_on: 2022-03-30 21:25:21.000000000 Z
+- name: speakeasy
+  description: Cross-platform Golang helpers for reading password input without cgo
+  package_url: https://pkg.go.dev/github.com/bgentry/speakeasy
+  version: 0.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-06 22:58:41.000000000 Z
+- name: spec
+  description: Openapi specification object model
+  package_url: https://pkg.go.dev/github.com/go-openapi/spec
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Bianca Moreira
+  last_updated_on: 2024-01-09 14:29:30.000000000 Z
+- name: ssh-agent
+  description: Create a new SSH agent on any type of OS
+  package_url: https://pkg.go.dev/github.com/xanzy/ssh-agent
+  version: 0.3.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Nick Cabatoff
+  last_updated_on: 2023-07-06 16:35:06.000000000 Z
+- name: strfmt
+  description: Openapi toolkit common string formats
+  package_url: https://pkg.go.dev/github.com/go-openapi/strfmt
+  version: 0.21.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Bianca Moreira
+  last_updated_on: 2024-01-09 14:29:30.000000000 Z
+- name: structs
+  description: Utilities for Go structs
+  package_url: https://pkg.go.dev/github.com/fatih/structs
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-05 20:08:37.000000000 Z
+- name: swag
+  description: Goodie bag in use in the go-openapi projects
+  package_url: https://pkg.go.dev/github.com/go-openapi/swag
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Bianca Moreira
+  last_updated_on: 2024-01-09 14:29:30.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: api/go.mod
+  last_updated_by: Jeff Mitchell
+  last_updated_on: 2019-04-12 21:54:35.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: api/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-04 18:19:40.000000000 Z
+- name: to
+  description: This package implements an HTTP request pipeline suitable for use across
+    multiple go-routines and provides the shared routines relied on by AutoRest generated
+    Go code
+  package_url: https://pkg.go.dev/github.com/Azure/go-autorest/autorest/to
+  version: 0.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jeff Mitchell
+  last_updated_on: 2019-04-13 07:44:06.000000000 Z
+- name: toml
+  description: TOML parser for Golang with reflection
+  package_url: https://pkg.go.dev/github.com/BurntSushi/toml
+  version: 0.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/gcp/go.sum
+  detection_source: go.mod
+  last_updated_by: Tom Proctor
+  last_updated_on: 2023-08-14 20:31:29.000000000 Z
+- name: tools
+  description: Go Tools
+  package_url: https://pkg.go.dev/golang.org/x/tools
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: go.mod
+  last_updated_by: Chris Capurso
+  last_updated_on: 2024-04-26 16:51:24.000000000 Z
+- name: triton-go
+  description: Go SDK for Joyent Triton
+  package_url: https://pkg.go.dev/github.com/joyent/triton-go
+  version: 0.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-02 20:35:42.000000000 Z
+- name: ulid
+  description: Universally Unique Lexicographically Sortable Identifier
+  package_url: https://pkg.go.dev/github.com/oklog/ulid
+  version: 1.3.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Bianca Moreira
+  last_updated_on: 2024-01-09 14:29:30.000000000 Z
+- name: validate
+  description: Openapi toolkit validation helpers
+  package_url: https://pkg.go.dev/github.com/go-openapi/validate
+  version: 0.22.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Bianca Moreira
+  last_updated_on: 2024-01-09 14:29:30.000000000 Z
+- name: validation
+  description: This package implements an HTTP request pipeline suitable for use across
+    multiple go-routines and provides the shared routines relied on by AutoRest generated
+    Go code
+  package_url: https://pkg.go.dev/github.com/Azure/go-autorest/autorest/validation
+  version: 0.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-05 20:08:37.000000000 Z
+- name: vault-plugin-auth-gcp
+  description: GCP Authentication Plugin for Vault
+  package_url: https://pkg.go.dev/github.com/hashicorp/vault-plugin-auth-gcp
+  version: 0.16.2
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: vinay-gopalan
+  last_updated_on: 2024-04-19 16:57:17.000000000 Z
+- name: vault/api
+  description: A tool for secrets management
+  package_url: https://pkg.go.dev/github.com/hashicorp/vault/api
+  version: 1.12.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/approle/go.sum
+  detection_source: api/auth/approle/go.mod
+  last_updated_by: Violet Hynes
+  last_updated_on: 2024-02-08 15:46:33.000000000 Z
+- name: warnings.v0
+  description: Package warnings implements error handling with non-fatal errors
+  package_url: https://pkg.go.dev/gopkg.in/warnings.v0
+  version: 0.1.2
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Nick Cabatoff
+  last_updated_on: 2023-07-06 16:35:06.000000000 Z
+- name: xstrings
+  description: 'Xstrings: A collection of useful string functions for Go'
+  package_url: https://pkg.go.dev/github.com/huandu/xstrings
+  version: 1.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: hc-github-team-secure-vault-core
+  last_updated_on: 2024-02-05 20:08:37.000000000 Z
+- name: xz
+  description: Pure golang package for reading and writing xz-compressed files
+  package_url: https://pkg.go.dev/github.com/ulikunitz/xz
+  version: 0.5.8
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jeff Mitchell
+  last_updated_on: 2019-04-13 07:44:06.000000000 Z
+- name: yaml
+  description: A better way to marshal and unmarshal YAML in Golang
+  package_url: https://pkg.go.dev/github.com/ghodss/yaml
+  version: 1.0.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/api/auth/gcp/go.sum
+  detection_source: go.mod
+  last_updated_by: Nick Cabatoff
+  last_updated_on: 2023-04-24 18:25:50.000000000 Z
+- name: yamux
+  description: Golang connection multiplexing library
+  package_url: https://pkg.go.dev/github.com/hashicorp/yamux
+  version: 0.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Violet Hynes
+  last_updated_on: 2023-04-03 18:14:47.000000000 Z
+- name: zap
+  description: Blazing fast, structured, leveled logging in Go
+  package_url: https://pkg.go.dev/go.uber.org/zap
+  version: 1.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jeff Mitchell
+  last_updated_on: 2019-04-13 07:44:06.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.24.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Noelle Daley
+  last_updated_on: 2024-03-18 17:42:45.000000000 Z
+- name: "@babel/plugin-proposal-decorators"
+  description: Compile class and object decorators to ES5
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-decorators
+  version: 7.24.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16147/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Noelle Daley
+  last_updated_on: 2024-03-18 17:42:45.000000000 Z
+- name: "@babel/plugin-proposal-object-rest-spread"
+  description: Compile object rest and spread to ES5
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-object-rest-spread
+  version: 7.20.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16001/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Noelle Daley
+  last_updated_on: 2024-03-18 17:42:45.000000000 Z
+- name: "@ember/optional-features"
+  description: The default blueprint for ember-cli addons
+  package_url: https://www.npmjs.com/@ember/optional-features
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16849/default_1b078765f7b7ae4ccce598a7251eb06451511e5e.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Noelle Daley
+  last_updated_on: 2024-04-12 23:33:10.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.62.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: claire bontempo
+  last_updated_on: 2024-04-24 21:47:07.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.62.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: claire bontempo
+  last_updated_on: 2024-04-24 21:47:07.000000000 Z
+- name: autosize
+  description: Autosize is a small
+  package_url: https://www.npmjs.com/autosize
+  version: 4.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18320/default_185a3d4e97cf62330a9efe7678914006c4eeb555.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/lib/core/package.json
+  last_updated_by: Matthew Irish
+  last_updated_on: 2019-06-21 21:05:45.000000000 Z
+- name: base64-js
+  description: Base64 encoding/decoding in pure JS
+  package_url: https://www.npmjs.com/base64-js
+  version: 1.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17396/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/lib/core/package.json
+  last_updated_by: Matthew Irish
+  last_updated_on: 2019-05-13 19:05:25.000000000 Z
+- name: broccoli-asset-rev
+  description: Broccoli asset revisions
+  package_url: https://www.npmjs.com/broccoli-asset-rev
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16119/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Angel Garbarino
+  last_updated_on: 2020-12-03 23:00:22.000000000 Z
+- name: columnify
+  description: Render data in text columns. Supports in-column text-wrap
+  package_url: https://www.npmjs.com/columnify
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17942/default_cc042fd7c0a9cf091d301af307c99c8b7b08b8bc.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Matthew Irish
+  last_updated_on: 2018-06-01 22:18:31.000000000 Z
+- name: concurrently
+  description: Run commands concurrently
+  package_url: https://www.npmjs.com/concurrently
+  version: 8.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Noelle Daley
+  last_updated_on: 2024-04-12 23:33:10.000000000 Z
+- name: d3-array
+  description: Array manipulation, ordering, searching, summarizing, etc
+  package_url: https://www.npmjs.com/d3-array
+  version: 3.2.4
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17322/default_2f1b682e838d69744876821bf705f0b2974318b1.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: claire bontempo
+  last_updated_on: 2024-04-24 21:47:07.000000000 Z
+- name: d3-format
+  description: Format numbers for human consumption
+  package_url: https://www.npmjs.com/d3-format
+  version: 3.1.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18327/default_b0d06180669cf53f2469ea77b53b5911d72482d5.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Chelsea Shaw
+  last_updated_on: 2024-04-12 22:13:45.000000000 Z
+- name: d3-scale
+  description: Encodings that map abstract data to visual representation
+  package_url: https://www.npmjs.com/d3-scale
+  version: 4.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16978/default_7a9e63a9526bf5da91e7a6f9f792b13e3543a875.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Chelsea Shaw
+  last_updated_on: 2024-04-12 22:13:45.000000000 Z
+- name: d3-selection
+  description: 'Data-driven DOM manipulation: select elements and join them to data'
+  package_url: https://www.npmjs.com/d3-selection
+  version: 3.0.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17187/default_fbe883dfc6d978f82179fa11bdf634af1b6751fa.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Chelsea Shaw
+  last_updated_on: 2024-04-12 22:13:45.000000000 Z
+- name: d3-shape
+  description: Graphical primitives for visualization
+  package_url: https://www.npmjs.com/d3-shape
+  version: 3.2.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17385/default_c1932d441699b98abea6098c6f8f65e2acb4f5ed.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Chelsea Shaw
+  last_updated_on: 2024-04-12 22:13:45.000000000 Z
+- name: deepmerge
+  description: A library for deep
+  package_url: https://www.npmjs.com/deepmerge
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16179/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Matthew Irish
+  last_updated_on: 2019-08-19 20:45:39.000000000 Z
+- name: doctoc
+  description: Generates TOC for markdown files of local git repo
+  package_url: https://www.npmjs.com/doctoc
+  version: 2.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16760/default_c11d90814ded8fcd305b22fdc42b42a3111f1f6d.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: claire bontempo
+  last_updated_on: 2022-06-15 21:50:44.000000000 Z
+- name: ember-cli-babel
+  description: Ember CLI addon for Babel
+  package_url: https://www.npmjs.com/ember-cli-babel
+  version: 6.18.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16116/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/lib/config-ui/package.json
+  last_updated_by: Kianna
+  last_updated_on: 2024-01-23 23:04:17.000000000 Z
+- name: ember-cli-content-security-policy
+  description: This addon adds the Content-Security-Policy header to response sent
+    from the Ember CLI Express server
+  package_url: https://www.npmjs.com/ember-cli-content-security-policy
+  version: 2.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16425/default_d73092129e1cde5ea9f47f22e2d7c3db7bd6da8d.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Noelle Daley
+  last_updated_on: 2024-04-12 23:33:10.000000000 Z
+- name: ember-cli-dependency-checker
+  description: Ember CLI addon for detecting missing npm and bower dependencies before
+    executing ember commands
+  package_url: https://www.npmjs.com/ember-cli-dependency-checker
+  version: 3.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16121/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Noelle Daley
+  last_updated_on: 2024-04-12 23:33:10.000000000 Z
+- name: ember-cli-htmlbars
+  description: A library for adding htmlbars to ember CLI
+  package_url: https://www.npmjs.com/ember-cli-htmlbars
+  version: 4.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16115/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/lib/config-ui/package.json
+  last_updated_by: Kianna
+  last_updated_on: 2024-01-23 23:04:17.000000000 Z
+- name: ember-cli-inject-live-reload
+  description: Plugin for ember-cli that injects live-reload script into HTML content
+  package_url: https://www.npmjs.com/ember-cli-inject-live-reload
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16117/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Noelle Daley
+  last_updated_on: 2024-04-12 23:33:10.000000000 Z
+- name: ember-cli-sass
+  description: Use Sass to preprocess your ember-cli app's files
+  package_url: https://www.npmjs.com/ember-cli-sass
+  version: 11.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17156/default_eb6674f470fe213f950fd09d858ebb0f6b6e3dda.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Noelle Daley
+  last_updated_on: 2024-04-12 23:33:10.000000000 Z
+- name: ember-cli-sri
+  description: SRI generation for Ember CLI
+  package_url: https://www.npmjs.com/ember-cli-sri
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16180/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Noelle Daley
+  last_updated_on: 2024-04-12 23:33:10.000000000 Z
+- name: ember-data
+  description: A data layer for your Ember applications
+  package_url: https://www.npmjs.com/ember-data
+  version: 4.12.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16222/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Noelle Daley
+  last_updated_on: 2024-04-12 23:33:10.000000000 Z
+- name: ember-load-initializers
+  description: A tiny add-on to autoload your initializer files in ember-cli
+  package_url: https://www.npmjs.com/ember-load-initializers
+  version: 2.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16196/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Noelle Daley
+  last_updated_on: 2024-04-12 23:33:10.000000000 Z
+- name: ember-qunit
+  description: QUnit helpers for testing Ember.js applications
+  package_url: https://www.npmjs.com/ember-qunit
+  version: 6.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17016/default_8ef738cb63f629c8e87903029b82b45840ab75a3.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Noelle Daley
+  last_updated_on: 2024-04-12 23:33:10.000000000 Z
+- name: ember-resolver
+  description: The default modules based resolver for Ember CLI
+  package_url: https://www.npmjs.com/ember-resolver
+  version: 10.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16189/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Noelle Daley
+  last_updated_on: 2024-04-12 23:33:10.000000000 Z
+- name: ember-sinon
+  description: Ember CLI addon for sinon.js
+  package_url: https://www.npmjs.com/ember-sinon
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18356/default_2d54ed83bf3c0e61b6303a6cc77852a3fb1ae83a.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Noelle Daley
+  last_updated_on: 2024-04-12 23:33:10.000000000 Z
+- name: ember-source
+  description: A JavaScript framework for creating ambitious web applications
+  package_url: https://www.npmjs.com/ember-source
+  version: 4.12.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16288/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/lib/service-worker-authenticated-download/package.json
+  last_updated_by: Matthew Irish
+  last_updated_on: 2019-10-14 18:23:29.000000000 Z
+- name: ember-truth-helpers
+  description: Ember Truth Helpers
+  package_url: https://www.npmjs.com/ember-truth-helpers
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18267/default_7f9b12bbc55824c0dff067aa1286b7d2699852f9.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/lib/core/package.json
+  last_updated_by: Jordan Reimer
+  last_updated_on: 2023-01-18 21:02:41.000000000 Z
+- name: escape-string-regexp
+  description: Escape RegExp special characters
+  package_url: https://www.npmjs.com/escape-string-regexp
+  version: 1.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16736/default_cc1793e454d6d035c188f0198b037d58f372e7f2.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/lib/core/package.json
+  last_updated_by: Jordan Reimer
+  last_updated_on: 2021-12-07 17:05:14.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Noelle Daley
+  last_updated_on: 2024-04-12 23:33:10.000000000 Z
+- name: eslint-plugin-compat
+  description: Lint browser compatibility of API used
+  package_url: https://www.npmjs.com/eslint-plugin-compat
+  version: 4.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16743/default_848dc5bc612658cea8d631cff0259d9588c28fea.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Chelsea Shaw
+  last_updated_on: 2024-04-12 22:13:45.000000000 Z
+- name: eslint-plugin-ember
+  description: Eslint plugin for Ember.js apps
+  package_url: https://www.npmjs.com/eslint-plugin-ember
+  version: 11.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16474/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Noelle Daley
+  last_updated_on: 2024-04-12 23:33:10.000000000 Z
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 4.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Chelsea Shaw
+  last_updated_on: 2024-04-12 22:13:45.000000000 Z
+- name: filesize
+  description: JavaScript library to generate a human readable String describing the
+    file size
+  package_url: https://www.npmjs.com/filesize
+  version: 10.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16611/default_5a21421012fa20e57fe0aeab31228f42e7118abc.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Matthew Irish
+  last_updated_on: 2019-10-14 18:23:29.000000000 Z
+- name: flat
+  description: Take a nested Javascript object and flatten it
+  package_url: https://www.npmjs.com/flat
+  version: 6.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17025/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Angel Garbarino
+  last_updated_on: 2023-10-25 17:06:06.000000000 Z
+- name: handlebars
+  description: Handlebars provides the power necessary to let you build semantic templates
+    effectively with no frustration
+  package_url: https://www.npmjs.com/handlebars
+  version: 4.7.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16013/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Chelsea Shaw
+  last_updated_on: 2023-08-01 19:02:21.000000000 Z
+- name: jsondiffpatch
+  description: Diff &amp; Patch for Javascript objects
+  package_url: https://www.npmjs.com/jsondiffpatch
+  version: 0.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18307/default_adee5b58cc2acb885faff4066ee6d7281131005f.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Chelsea Shaw
+  last_updated_on: 2024-04-29 16:49:44.000000000 Z
+- name: jsonlint
+  description: Validate JSON
+  package_url: https://www.npmjs.com/jsonlint
+  version: 1.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17358/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Chelsea Shaw
+  last_updated_on: 2024-04-29 16:49:44.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 10.5.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Chelsea Shaw
+  last_updated_on: 2024-04-12 22:13:45.000000000 Z
+- name: loader.js
+  description: Loader.js =========
+  package_url: https://www.npmjs.com/loader.js
+  version: 4.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16210/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Chelsea Shaw
+  last_updated_on: 2024-02-16 21:34:57.000000000 Z
+- name: node-notifier
+  description: A Node.js module for sending notifications on native Mac
+  package_url: https://www.npmjs.com/node-notifier
+  version: 8.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16146/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Chelsea Shaw
+  last_updated_on: 2024-03-11 21:22:36.000000000 Z
+- name: prettier-eslint-cli
+  description: CLI for prettier-eslint
+  package_url: https://www.npmjs.com/prettier-eslint-cli
+  version: 7.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16620/default_9012166d3e51cea5db6b4e69c80ace1c50b7509d.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Chelsea Shaw
+  last_updated_on: 2024-04-12 22:13:45.000000000 Z
+- name: qunit-dom
+  description: High Level DOM Assertions for QUnit
+  package_url: https://www.npmjs.com/qunit-dom
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16779/default_661bbd7f9556b6c5c0b8be11cd13e1813fc5c977.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Angel Garbarino
+  last_updated_on: 2024-02-12 18:10:13.000000000 Z
+- name: shell-quote
+  description: Quote and parse shell commands
+  package_url: https://www.npmjs.com/shell-quote
+  version: 1.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17489/default_188fa5cbc974fa18aed5a9b1f0d7f2bfaf8f1648.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Angel Garbarino
+  last_updated_on: 2023-10-25 17:06:06.000000000 Z
+- name: stylelint-config-standard
+  description: Standard shareable config for stylelint
+  package_url: https://www.npmjs.com/stylelint-config-standard
+  version: 32.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16266/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Noelle Daley
+  last_updated_on: 2024-04-12 23:33:10.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 8.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Jordan Reimer
+  last_updated_on: 2023-02-28 19:26:10.000000000 Z
+- name: walk-sync
+  description: Get an array of recursive directory contents
+  package_url: https://www.npmjs.com/walk-sync
+  version: 0.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17846/default_369b3bf3ef062123a581e4817f09cb0004de7ff6.png
+  detection_source_url: https://github.com/minhnguyen311/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Chelsea Shaw
+  last_updated_on: 2024-04-12 22:13:45.000000000 Z
